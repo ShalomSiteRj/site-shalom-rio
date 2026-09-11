@@ -1,20 +1,11 @@
-import './App.css'
-import Navbar from './components/Navbar.jsx'
-
-
 function Contatos() {
   return (
     <div>
-
-
       <div className="container">
         <h1 className="mt-5">Contatos</h1>
         <h2>21975614500</h2>
-
-
       </div>
     </div>
-
   )
 }
 

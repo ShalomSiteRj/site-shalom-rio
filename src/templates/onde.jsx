@@ -1,16 +1,9 @@
-import './App.css'
-import Navbar from './components/Navbar.jsx'
-
-
-
 function Onde() {
   return (
     <div>
-
-
       <div className="container">
         <h1 className="mt-5">Onde estamos</h1>
-        <h2>
+        <div>
           <p>podemos por links para páginas estáticas comfotos de cada centro de evangelização....</p>
           <ul>
             <li>Catete — Rua Bento Lisboa, 112</li>
@@ -22,18 +15,10 @@ function Onde() {
             <li>quisque do guido</li>
             <li>Difusão Caxias</li>
             <li>Difusão baixada</li>
-
           </ul>
-          
-
-        </h2>
-    
-
-
-
+        </div>
       </div>
     </div>
-
   )
 }
 
