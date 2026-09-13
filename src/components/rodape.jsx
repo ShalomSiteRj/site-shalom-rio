@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Rodape() {
   return (
-    <footer className="bg-dark text-light py-4">
+    <footer className=" rodape py-4"> {/* bg-primary ou dark e text-light */}
       <div className="container">
 
         <hr className="border-secondary" />
@@ -23,7 +23,7 @@ function Rodape() {
               B
             </div>
 
-            <span>© 2025 Company, Inc</span>
+            <span>© 2026 Obra Shalom - Projeto Comunitário. Todos os direitos reservados.</span>
           </div>
 
           {/* Lado direito */}

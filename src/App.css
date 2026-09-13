@@ -1,3 +1,19 @@
 .App {
   text-align: center;
 }
+
+
+
+.navbar {
+  background-color: #215E97;
+  color: #fff;
+  padding: 1rem;
+
+}
+
+.rodape {
+  background-color: #215E97;
+  color: #ffffff;
+  padding: 1rem;
+  text-align: center;
+}
