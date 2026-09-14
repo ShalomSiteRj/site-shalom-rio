@@ -1,21 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/shalom-logo.png';
+
+
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark ">{/* bg-primary ou dark */}
       <div className="container-fluid">
-        <Link className="navbar-brand"  to="/">Shalom Rio</Link> {/* Isso é um comentário */}
+        <Link className="navbar-brand"  to="/">
+          <img src={logo} alt="Logo Shalom" /> {/* trabalho árduo */}
+        </Link> {/* Isso é um comentário */}
         {/* Navbar-brand deixa a primeira opção do menu maior, podendo ser usado com um logo */}
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
