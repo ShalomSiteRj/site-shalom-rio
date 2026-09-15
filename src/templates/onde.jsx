@@ -1,11 +1,11 @@
 // onde.jsx
-import Locais from '../components/Navbar-locais.jsx'
+import Navbarlocais from '../components/Navbar-locais.jsx'
 function Onde() {
 
   
   // Criamos uma lista de objetos com os locais. 
   // Isso deixa o código limpo e fácil de atualizar depois!
-  const locais = [
+  const localizacoes = [
     { nome: "Catete", endereco: "Rua Bento Lisboa, 112" },
     { nome: "Tijuca", endereco: "Rua Alzira Brandão, 304" },
     { nome: "Jacarepaguá / Curicica", endereco: "Rua das Pêras, 2" },
@@ -18,7 +18,7 @@ function Onde() {
   ];
 
   return (
-    <><Locais />
+    <><Navbarlocais />
       <div className="container">
         
 
@@ -33,7 +33,7 @@ function Onde() {
           
           {/* O comando .map() passa por cada item da nossa lista 'locais' acima 
               e cria um <li> para cada um automaticamente! */}
-          {locais.map((local, index) => (
+          {localizacoes.map((local, index) => (
             // O 'key' é obrigatório no React quando usamos o .map()
             <li key={index} style={{ 
               padding: "10px", 

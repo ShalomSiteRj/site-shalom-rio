@@ -1,10 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
-function Locais() {
+function Navbarlocais() {
   return (
     <nav className="navbar-locais navbar-expand-lg navbar-dark ">{/* bg-primary ou dark */}
       <div className="container-fluid">
@@ -14,35 +10,35 @@ function Locais() {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
 
             <li className="nav-item">
-              <Link to="/eventos" className="nav-link">Catete</Link>{/* todos os outro são nav-link */}
+              <Link to="/Cevcatete" className="nav-link">Catete</Link>{/* todos os outro são nav-link */}
             </li>
 
             <li className="nav-item">
-              <Link to="/noticias" className="nav-link">Tijuca</Link>
+              <Link to="/Cevtijuca" className="nav-link">Tijuca</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/onde" className="nav-link">Vigário Geral</Link>
+              <Link to="/Cevvigario" className="nav-link">Vigário Geral</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/sobre" className="nav-link">Campo grande</Link>
+              <Link to="/Cevcampogrande" className="nav-link">Campo grande</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/contatos" className="nav-link">Jacarepaguá / Curicica</Link>
+              <Link to="/Cevjacarepagua" className="nav-link">Jacarepaguá / Curicica</Link>
             </li> 
 
             <li className="nav-item">
-              <Link to="/contatos" className="nav-link">Recreio dos Bandeirantes</Link>
+              <Link to="/Cevrecreio" className="nav-link">Recreio dos Bandeirantes</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/contatos" className="nav-link"> Ajude o Azilo em Irája</Link>
+              <Link to="/Cevasilo" className="nav-link">Asilo em Irája</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/contatos" className="nav-link">Quiosque SH82- Praia do recreio posto</Link>
+              <Link to="/Cevquiosque" className="nav-link">Quiosque SH82- Praia do recreio posto</Link>
             </li>
 
           </ul>
@@ -52,4 +48,4 @@ function Locais() {
   );
 }
 
-export default Locais;
+export default Navbarlocais;

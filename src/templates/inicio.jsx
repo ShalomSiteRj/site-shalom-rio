@@ -1,4 +1,5 @@
 // inicio.jsx
+import Navbarlocais from '../components/Navbar-locais.jsx'
 function Inicio() {
   // Estilo inline simples para centralizar e dar destaque à página inicial
   const heroStyle = {
@@ -10,28 +11,29 @@ function Inicio() {
   };
 
   return (
-    // Usamos a tag <main> para indicar que este é o conteúdo principal
-    <main className="container">
-      <div style={heroStyle}>
-        {/* Título principal da página */}
-        <h1 style={{ color: "#215E97" }}>Comunidade Católica Shalom Rio de Janeiro</h1>
-        
-        {/* Subtítulo chamativo */}
-        <h2 style={{ fontWeight: "300", margin: "20px 0" }}>
-          30 anos construindo um Rio de paz!
-        </h2>
-        
-        <h3>Faça parte dessa família!</h3>
-        
-        {/* Um botão fictício que pode ser um link para a página de "Contatos" ou "Onde estamos" */}
-        <button 
-          className="btn btn-primary mt-3" 
-          style={{ padding: "10px 20px", fontSize: "1.1rem" }}
-        >
-          Venha nos conhecer
-        </button>
-      </div>
-    </main>
+    <><Navbarlocais />
+      <main className="container">
+        <div style={heroStyle}>
+          {/* Título principal da página */}
+          <h1 style={{ color: "#215E97" }}>Comunidade Católica Shalom Rio de Janeiro</h1>
+          
+          {/* Subtítulo chamativo */}
+          <h2 style={{ fontWeight: "300", margin: "20px 0" }}>
+            30 anos construindo um Rio de paz!
+          </h2>
+          
+          <h3>Faça parte dessa família!</h3>
+          
+          {/* Um botão fictício que pode ser um link para a página de "Contatos" ou "Onde estamos" */}
+          <button 
+            className="btn btn-primary mt-3" 
+            style={{ padding: "10px 20px", fontSize: "1.1rem" }}
+          >
+            Venha nos conhecer
+          </button>
+        </div>
+      </main>
+    </>
   );
 }
 

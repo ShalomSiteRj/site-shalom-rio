@@ -8,10 +8,14 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark ">{/* bg-primary ou dark */}
       <div className="container-fluid">
+
         <Link className="navbar-brand"  to="/">
           <img src={logo} alt="Logo Shalom" /> {/* trabalho árduo */}
+
+          <span className="ms-2">Shalom Rio 30 anos!</span>
+
         </Link> {/* Isso é um comentário */}
-        {/* Navbar-brand deixa a primeira opção do menu maior, podendo ser usado com um logo */}
+
 
 
 

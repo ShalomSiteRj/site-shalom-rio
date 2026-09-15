@@ -44,3 +44,43 @@
 .nav-link {
   margin-right: 3rem;
 }
+
+
+/* AREA DO CEVS    */
+/* AREA DO CEVS    */
+/* AREA DO CEVS    */
+.centro-destaque {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.centro-destaque img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.centro-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 40%;
+
+  padding: 80px 50px;
+
+  color: white;
+
+  background: linear-gradient(
+    to right,
+    rgba(0, 18, 82, 1.95),
+    rgba(0, 18, 82, 0.8),
+    transparent
+  );
+}
+
+/* AREA DO CEVS    */
+/* AREA DO CEVS    */
+/* AREA DO CEVS    */
