@@ -19,7 +19,7 @@ function Noticias() {
         {/* Um link (âncora) estilizado como se fosse um pequeno botão. 
             No futuro, pode trocar o 'href' pelo link do comshalom! */}
         <a 
-          href="https://comshalom.org" 
+          href="https://www.instagram.com/p/Dcd6RcDuUi_/" 
           target="_blank" // Faz o link abrir em uma nova aba
           rel="noreferrer" // Medida de segurança do React para links externos
           style={{

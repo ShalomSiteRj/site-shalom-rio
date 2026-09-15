@@ -1,5 +1,5 @@
 import Navbarlocais from '../components/Navbar-locais.jsx'
-import fotoCatete from '../assets/catete-foto.png'
+import Fotocatete from '../assets/fotocatete.png'
 
 
 
@@ -15,7 +15,7 @@ function Centrocatete() {
     
     
       <div className="centro-destaque">
-        <img src={fotoCatete} alt="Foto do Centro de Evangelização Shalom - Catete" className="centro-foto" />                
+        <img src={Fotocatete} alt="Foto do Centro de Evangelização Shalom - Catete" className="centro-foto" />                
           <div className="centro-info">
 
             <h1>Shalom Catete - Lanchonete e livraria </h1>

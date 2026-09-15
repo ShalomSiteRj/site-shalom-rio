@@ -48,7 +48,9 @@
 
 /* AREA DO CEVS    */
 /* AREA DO CEVS    */
-/* AREA DO CEVS    */
+/* AREA DO CEVS    */ 
+ 
+/* MELHRO TAMANHO DE IMAGEM 16:9    */ 
 .centro-destaque {
   position: relative;
   height: 100vh;
@@ -83,4 +85,98 @@
 
 /* AREA DO CEVS    */
 /* AREA DO CEVS    */
-/* AREA DO CEVS    */
+
+
+/* area do eventos    */
+/* =========================
+   PÁGINA DE EVENTOS
+   ========================= */
+
+.eventos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Título */
+.eventos-titulo {
+  margin-bottom: 30px;
+}
+
+/* Área que contém os cards e a foto */
+.eventos-conteudo {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* =========================
+   CARDS
+   ========================= */
+
+.eventos-lista {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.evento-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+/* Quando passar o mouse */
+.evento-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+/* Card selecionado */
+.evento-card.ativo {
+  background-color: #001252;
+  color: white;
+}
+/* =========================
+   FOTO
+   ========================= */
+
+.evento-fotos {
+  width: 55%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+/* Imagem */
+.evento-fotos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Texto sobre a foto */
+.evento-fotos-info {
+  display: none;
+}
+/* =========================
+   CELULAR
+   ========================= */
+
+@media (max-width: 768px) {
+
+  .eventos-conteudo {
+    flex-direction: column;
+  }
+
+  .eventos-lista {
+    width: 100%;
+  }
+
+  .evento-fotos {
+    width: 100%;
+    height: 300px;
+  }
+}
+/* area do eventos    */
+.evento_fotos-info a {
+  color: #001252;
+  text-decoration: none;
+  font-weight: bold;
+}

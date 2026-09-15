@@ -1,10 +1,11 @@
 import Navbarlocais from '../components/Navbar-locais.jsx'
-import fotoCatete from '../assets/catete-foto.png'
+import fotoCatete from '../assets/fotocatete.png'
+import Fotorecreio from '../assets/fotorecreio.png'
 
 
 
 
-function Centrocatete() {
+function Centroquiosque() {
   
 
   
@@ -15,10 +16,10 @@ function Centrocatete() {
     
     
       <div className="centro-destaque">
-        <img src={fotoCatete} alt="Foto do Centro de Evangelização Shalom - Catete" className="centro-foto" />                
+        <img src={Fotorecreio} alt="Foto do Centro de Evangelização Shalom - Catete" className="centro-foto" />                
           <div className="centro-info">
 
-            <h1>Shalom Quiosque</h1>
+            <h1>Quiosque SH82</h1>
 
             <p>
               Centro de Evangelização Shalom
@@ -44,4 +45,4 @@ function Centrocatete() {
   );
 }
 
-export default Centrocatete;
+export default Centroquiosque;
