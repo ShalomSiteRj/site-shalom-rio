@@ -1,8 +1,7 @@
 import { useState } from "react";
+
 import Fotorecreio from "../assets/fotorecreio.png";
 import Fotoacamps from "../assets/foto-acamps.png";
-
-
 
 function Eventos() {
 
@@ -13,20 +12,22 @@ function Eventos() {
       desc: "A Festa que nunca acaba!",
       imagem: Fotorecreio,
       link: "https://www.instagram.com/acampsrio/"
-
     },
+
     {
       titulo: "Flash",
       desc: "Encontro jovem.",
       imagem: Fotorecreio,
       link: "https://www.instagram.com/acampsrio/"
     },
+
     {
       titulo: "Seminário de Vida",
       desc: "Um encontro de experiência com Deus.",
       imagem: Fotorecreio,
       link: "https://www.instagram.com/acampsrio/"
     },
+
     {
       titulo: "Acamps 2027",
       desc: "O melhor acampamento de jovens.",
@@ -71,12 +72,21 @@ function Eventos() {
 
               <p>{evento.desc}</p>
 
+              {/* Link dentro do card */}
+              <a
+                href={evento.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Saiba mais →
+              </a>
+
             </div>
 
           ))}
 
         </div>
-
 
         {/* LADO DA FOTO */}
         <div className="evento-fotos">
@@ -85,14 +95,19 @@ function Eventos() {
             src={evento.imagem}
             alt={evento.titulo}
           />
+
           {/* Link abaixo da foto */}
+          <div className="evento-fotos-info">
+
             <a
               href={evento.link}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Saiba mais sobre {evento.titulo} →
+              Saiba mais {evento.titulo} →
             </a>
+
+          </div>
 
         </div>
 
