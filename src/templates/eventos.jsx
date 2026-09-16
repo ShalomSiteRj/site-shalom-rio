@@ -1,7 +1,9 @@
 import { useState } from "react";
 
-import Fotorecreio from "../assets/fotorecreio.png";
-import Fotoacamps from "../assets/foto-acamps.png";
+import Fotoevento01 from "../assets/fotoevento01.png";
+import Fotoevento02 from "../assets/fotoevento02.png";
+import Fotoevento03 from "../assets/fotoevento03.png";
+import Fotoevento04 from "../assets/fotoevento04.png";
 
 function Eventos() {
 
@@ -10,28 +12,28 @@ function Eventos() {
     {
       titulo: "Halleluya",
       desc: "A Festa que nunca acaba!",
-      imagem: Fotorecreio,
+      imagem: Fotoevento02,
       link: "https://www.instagram.com/acampsrio/"
     },
 
     {
       titulo: "Flash",
       desc: "Encontro jovem.",
-      imagem: Fotorecreio,
+      imagem: Fotoevento01,
       link: "https://www.instagram.com/acampsrio/"
     },
 
     {
       titulo: "Seminário de Vida",
       desc: "Um encontro de experiência com Deus.",
-      imagem: Fotorecreio,
+      imagem: Fotoevento04,
       link: "https://www.instagram.com/acampsrio/"
     },
 
     {
       titulo: "Acamps 2027",
       desc: "O melhor acampamento de jovens.",
-      imagem: Fotoacamps,
+      imagem: Fotoevento03,
       link: "https://www.instagram.com/acampsrio/"
     }
   ];
