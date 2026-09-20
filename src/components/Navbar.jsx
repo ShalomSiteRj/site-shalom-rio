@@ -27,11 +27,11 @@ function Navbar() {
             </li>
 
             <li className="nav-item">
-              <Link to="/noticias" className="nav-link">Notícias</Link>
+              <Link to="/onde" className="nav-link">Grupos de oração</Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/onde" className="nav-link">Onde Estamos</Link>
+              <Link to="/noticias" className="nav-link">Notícias</Link>
             </li>
 
             <li className="nav-item">

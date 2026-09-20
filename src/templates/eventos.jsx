@@ -4,6 +4,7 @@ import Fotoevento01 from "../assets/fotoevento01.png";
 import Fotoevento02 from "../assets/fotoevento02.png";
 import Fotoevento03 from "../assets/fotoevento03.png";
 import Fotoevento04 from "../assets/fotoevento04.png";
+import Fotoevento05 from "../assets/fotoevento05.png";
 
 function Eventos() {
 
@@ -13,29 +14,67 @@ function Eventos() {
       titulo: "Halleluya",
       desc: "A Festa que nunca acaba!",
       imagem: Fotoevento02,
-      link: "https://www.instagram.com/acampsrio/"
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
     },
 
     {
       titulo: "Flash",
       desc: "Encontro jovem.",
       imagem: Fotoevento01,
-      link: "https://www.instagram.com/acampsrio/"
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
     },
 
     {
       titulo: "Seminário de Vida",
       desc: "Um encontro de experiência com Deus.",
       imagem: Fotoevento04,
-      link: "https://www.instagram.com/acampsrio/"
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
     },
 
     {
       titulo: "Acamps 2027",
       desc: "O melhor acampamento de jovens.",
       imagem: Fotoevento03,
-      link: "https://www.instagram.com/acampsrio/"
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes"   
+    },
+    {
+      titulo: "Conferência universitária",
+      desc: "O melhor acampamento de jovens.",
+      imagem: Fotoevento05,
+      descricao:        
+           "Tem perguntas que a gente carrega pra faculdade, pro trabalho, pras conversas e até pra vida — mesmo quando não percebe.O que é verdade?Dá pra realmente conhecê-la?A Conferência Universitária nasce pra abrir esse espaço: um dia de conversa e reflexão sobre o encontro da razão com a Verdade — sem medo de fazer perguntas e sem respostas prontas.Porque pensar também é uma forma de buscar.📆 24 de outubro📍 Shopping Via Brasil — Rua Itapera, 500 Chama a galera, salva a data e vem viver esse encontro com a gente.",
+      link: "https://www.instagram.com/juventudeshrio/"
+      
     }
+  ];
+    const listaDeEventospassados = [
+    {
+      titulo: "eveno passao 01",
+      desc: "A Festa que nunca acaba!",
+      imagem: Fotoevento02,
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
+    },
+
+    {
+      titulo: "evento passadp 02",
+      desc: "Encontro jovem.",
+      imagem: Fotoevento01,
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
+    },
+    {
+      titulo: "evento passadp 0",
+      desc: "Encontro jovem.",
+      imagem: Fotoevento01,
+      link: "https://www.instagram.com/acampsrio/",
+      descricao:"detalhes" 
+    },
+
   ];
 
   // Guarda qual evento foi escolhido
@@ -97,6 +136,9 @@ function Eventos() {
             src={evento.imagem}
             alt={evento.titulo}
           />
+          <p>
+            {evento.descricao}
+          </p>
 
           {/* Link abaixo da foto */}
           <div className="evento-fotos-info">
@@ -114,6 +156,9 @@ function Eventos() {
         </div>
 
       </div>
+      <h4>
+        Veja como foram nosso ultimos eventos: 
+      </h4>
 
     </div>
   );
