@@ -25,7 +25,7 @@ function Centrocatete() {
             </p>
 
             <p>
-              Rua Bento Lisboa, 112
+              Ajude o azilo 
             </p>
 
             <p>
