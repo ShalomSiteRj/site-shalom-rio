@@ -51,31 +51,6 @@ function Eventos() {
       
     }
   ];
-    const listaDeEventospassados = [
-    {
-      titulo: "eveno passao 01",
-      desc: "A Festa que nunca acaba!",
-      imagem: Fotoevento02,
-      link: "https://www.instagram.com/acampsrio/",
-      descricao:"detalhes" 
-    },
-
-    {
-      titulo: "evento passadp 02",
-      desc: "Encontro jovem.",
-      imagem: Fotoevento01,
-      link: "https://www.instagram.com/acampsrio/",
-      descricao:"detalhes" 
-    },
-    {
-      titulo: "evento passadp 0",
-      desc: "Encontro jovem.",
-      imagem: Fotoevento01,
-      link: "https://www.instagram.com/acampsrio/",
-      descricao:"detalhes" 
-    },
-
-  ];
 
   // Guarda qual evento foi escolhido
   const [eventoSelecionado, setEventoSelecionado] = useState(0);
@@ -156,9 +131,6 @@ function Eventos() {
         </div>
 
       </div>
-      <h4>
-        Veja como foram nossos ultimos eventos: 
-      </h4>
 
     </div>
   );
