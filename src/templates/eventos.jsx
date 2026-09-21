@@ -157,7 +157,7 @@ function Eventos() {
 
       </div>
       <h4>
-        Veja como foram nosso ultimos eventos: 
+        Veja como foram nossos ultimos eventos: 
       </h4>
 
     </div>
